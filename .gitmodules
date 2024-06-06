@@ -1,0 +1,24 @@
+[submodule "src/base/bender_core"]
+	path = src/base/bender_core
+	url = https://github.com/uchile-robotics/bender_core
+[submodule "src/base/rosaria"]
+	path = src/base/rosaria
+	url = https://github.com/amor-ros-pkg/rosaria
+[submodule "src/base/uchile_common"]
+	path = src/base/uchile_common
+	url = https://github.com/uchile-robotics/uchile_common
+[submodule "src/soft/uchile_navigation"]
+	path = src/soft/uchile_navigation
+	url = https://github.com/uchile-robotics/uchile_navigation
+[submodule "src/soft/uchile_perception"]
+	path = src/soft/uchile_perception
+	url = https://github.com/uchile-robotics/uchile_perception
+[submodule "src/high/bender_bringup"]
+	path = src/high/bender_bringup
+	url = https://github.com/uchile-robotics/bender_bringup
+[submodule "src/high/uchile_high"]
+	path = src/high/uchile_high
+	url = https://github.com/uchile-robotics/uchile_high
+[submodule "src/base/uchile_knowledge"]
+	path = src/base/uchile_knowledge
+	url = https://github.com/uchile-robotics/uchile_knowledge
