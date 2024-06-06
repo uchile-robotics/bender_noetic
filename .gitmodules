@@ -22,3 +22,6 @@
 [submodule "src/base/uchile_knowledge"]
 	path = src/base/uchile_knowledge
 	url = https://github.com/uchile-robotics/uchile_knowledge
+[submodule "src/base/uchile_tools"]
+	path = src/base/uchile_tools
+	url = https://github.com/uchile-robotics/uchile_tools
