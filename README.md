@@ -19,13 +19,14 @@ sudo apt-get update
 # instalar ROS
 sudo apt-get install ros-kinetic-ros-base curl openssl pv python-rosinstall python-pip python-rosdep
 
-## Submodulos de Git.
-
-Este repositorio funciona con submódulos, es decir, puedes añadir otros repositorios a este como submódulos, esto permite un mejor espacio de trabajo. Si necesitas saber como usarlos, revisa la siguiente página: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 # inicializar rosdep
 sudo rosdep init # ignorar si es que falla con "ERROR: default sources list file already exists:..."
 rosdep update    # NO EJECUTAR CON SUDO!
 ```
+
+## Submodulos de Git
+
+Este repositorio funciona con submódulos, es decir, puedes añadir otros repositorios a este como submódulos, esto permite un mejor espacio de trabajo. Si necesitas saber como usarlos, revisa la siguiente página: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 # Pendiente terminar esto :D
