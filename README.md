@@ -33,7 +33,8 @@ git clone https://github.com/uchile-robotics/bender_noetic
 ```
 
 Luego, entra a la carpeta del repositorio y ejecuta el instalador. Recuerda que necesitarás que tu usuario de github tenga acceso a los repositorios de Uchile-Robotics, en caso de que no tengas acceso, solicitalo directamente con algún tutor.
-*PD: Recuerda también que github ya no permite utilizar directamente tu contraseña, necesitarás usar tu [token personalizado](https://github.com/settings/tokens) cuando el instalador te pida tu contraseña.*
+
+*PD: Recuerda también que github ya no permite utilizar directamente tu contraseña, necesitarás usar tu [token personalizado](https://github.com/settings/tokens) cuando el instalador te pida tu contraseña. (No te preocupes, no utilizaremos tus datos para actos fraudulentos, por ahora).*
 ```bash
 cd bender_noetic
 
