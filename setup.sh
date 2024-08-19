@@ -38,6 +38,7 @@ if $install_ariacoda; then
     make doc || { echo "Error en make doc"; exit 1; }
     sudo make install || { echo "Error en make install"; exit 1; }
     cd ..
+    cd bender_noetic
 else
     echo "Omitiendo la instalación de AriaCoda."
 fi
@@ -68,5 +69,4 @@ git submodule foreach '
 
 # Compilar
 echo "Compilando.."
-cd bender_noetic
 catkin_make || { echo "Error en catkin_make"; exit 1; }
