@@ -32,6 +32,12 @@ En una nueva terminal, clona el repositorio:
 git clone https://github.com/uchile-robotics/bender_noetic
 ```
 
+Recueda que esto te deja con la rama principal (main), normalmente, se utiliza develop y/o feature dependiendo del caso. Dentro de la carpeta del repositorio puedes ejecutar lo siguiente para cambiar de rama:
+```bash
+git checkout <nombre_rama>
+git checkout develop
+```
+
 Luego, entra a la carpeta del repositorio y ejecuta el instalador. Recuerda que necesitarás que tu usuario de github tenga acceso a los repositorios de Uchile-Robotics, en caso de que no tengas acceso, solicitalo directamente con algún tutor.
 
 *PD: Recuerda también que github ya no permite utilizar directamente tu contraseña, necesitarás usar tu [token personalizado](https://github.com/settings/tokens) cuando el instalador te pida tu contraseña. (No te preocupes, no utilizaremos tus datos para actos fraudulentos, por ahora).*
