@@ -19,6 +19,7 @@ sudo apt-get update
 # instalar ROS
 sudo apt install ros-noetic-desktop-full python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 
+
 # inicializar rosdep
 sudo rosdep init # ignorar si es que falla con "ERROR: default sources list file already exists:..."
 rosdep update    # NO EJECUTAR CON SUDO!
