@@ -23,6 +23,10 @@ sudo apt install ros-noetic-desktop-full python3-rosdep python3-rosinstall pytho
 # inicializar rosdep
 sudo rosdep init # ignorar si es que falla con "ERROR: default sources list file already exists:..."
 rosdep update    # NO EJECUTAR CON SUDO!
+
+# añadir al bash, muy importante
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ## Instalación del repositorio
