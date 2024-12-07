@@ -46,7 +46,7 @@ fi
 # Instalar las dependencias
 echo "Instalando dependencias..."
 sudo apt update
-sudo apt install -y ros-noetic-rviz-* ros-noetic-openni2* ros-noetic-rosserial-arduino ros-noetic-urg-node ros-noetic-joy ros-noetic-joy-teleop ros-noetic-joy-listener ros-noetic-effort-controllers ros-noetic-ira-laser-tools* ros-noetic-dwa-local-planner* libfftw3-dev ros-noetic-realsense2* ros-noetic-dynamixel-workbench-msgs
+sudo apt install -y ros-noetic-rviz-* ros-noetic-openni2* ros-noetic-rosserial-arduino ros-noetic-urg-node ros-noetic-joy ros-noetic-joy-teleop ros-noetic-joy-listener ros-noetic-effort-controllers ros-noetic-ira-laser-tools* ros-noetic-dwa-local-planner* libfftw3-dev ros-noetic-realsense2* ros-noetic-dynamixel-workbench-msgs python3-pip ros-noetic-move-base-msgs
 
 # Actualizar pip
 pip install --upgrade pip
